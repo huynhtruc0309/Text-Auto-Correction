@@ -1,0 +1,6 @@
+auto_correct:
+  module: modules.auto_correct.auto_correct
+  name: AutoCorrecting
+  AutoCorrecting:
+    dict_file: '''modules/weight/single_word_dict.pkl'''
+    name_db: '''modules/weight/name_db.txt'''
