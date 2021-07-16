@@ -8,7 +8,7 @@ if not os.path.exists('modules/weight/'):
 
 num_word = 1
 dict_filename = 'modules/weight/single_word_dict.pkl'
-data =  pd.read_excel('../Danh sách các Trung tâm Kiểm nghiệm_13072021.xlsx', sheet_name='Sheet1')
+data =  pd.read_excel('Danh sách các Trung tâm Kiểm nghiệm_13072021.xlsx', sheet_name='Sheet1')
 
 names = data['TÊN CẦN HIỂN THỊ'].tolist()
 other_names = data['Tên khác'].tolist()
